@@ -1,3 +1,13 @@
-profiles: account
-label: develop
-version: 1.0
+greeting: 안녕하니?
+---
+spring:
+  profiles: dev
+greeting: 개발은 안녕하니?
+---
+spring:
+  profiles: local
+greeting: 로컬은 안녕하니?
+---
+spring:
+  progiles: stage
+greeting: 스테이징은 안녕하니?
